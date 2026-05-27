@@ -1,0 +1,8 @@
+{
+  "connectionString": "mongodb+srv://USERNAME:PASSWORD@YOUR_CLUSTER.mongodb.net/?retryWrites=true&w=majority",
+  "database": "Test",
+  "collection": "Test",
+  "nameField": "ign",
+  "regionField": "region",
+  "tierField": "tier"
+}
