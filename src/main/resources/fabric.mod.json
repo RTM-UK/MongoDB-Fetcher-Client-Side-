@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "player-info-client",
+  "version": "${version}",
+  "name": "Player Info Client",
+  "description": "Adds a client-side /info command that reads player region and tier from MongoDB.",
+  "authors": [
+    "RTM"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/player-info-client/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.playerinfo.PlayerInfoClientMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
