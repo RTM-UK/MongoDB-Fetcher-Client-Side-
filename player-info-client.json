@@ -6,3 +6,4 @@
   "regionField": "region",
   "tierField": "tier"
 }
+// TO RUN AND COMPILE THIS MOD YOU WILL NEED A MONGODB CONNECTION STRING AND A DATABASE SETUP. <- If you use different database,collection etc edit the file to what you made it.
